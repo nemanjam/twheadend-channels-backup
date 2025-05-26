@@ -7,7 +7,7 @@
 ```
 
 ```yaml
-# docker-compose.yml
+# traefik-proxy/apps/tvheadend/docker-compose.yml
 
 services:
   tvheadend:
