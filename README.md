@@ -13,6 +13,7 @@ services:
   tvheadend:
     image: lscr.io/linuxserver/tvheadend:latest
     container_name: tvheadend
+
 # ...
 
 # volume path
