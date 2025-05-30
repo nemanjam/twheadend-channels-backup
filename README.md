@@ -21,3 +21,12 @@ volumes:
     - ./data/tvheadend/data:/config
     - ./data/recordings:/recordings
 ```
+
+### Copy channels from backup
+
+```bash
+# .gitkeep can remain
+
+# copy channels from backup
+scp -r ~/Desktop/twheadend-channels-backup/data pi:/home/orangepi/traefik-proxy/apps/tvheadend/
+```
